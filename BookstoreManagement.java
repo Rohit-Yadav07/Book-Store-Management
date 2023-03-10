@@ -8,3 +8,7 @@ public class BookstoreManagement {
         double[] prices = {10.99, 12.99, 9.99, 15.99, 8.99};
         int[] quantities = {10, 15, 20, 5, 25};
         double totalRevenue = 0.0;
+        System.out.println("Welcome to the Book Store Management System!");
+        
+        while(true){
+            System.out.println("What would you like to do?");
