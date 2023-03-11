@@ -12,3 +12,5 @@ public class BookstoreManagement {
         
         while(true){
             System.out.println("What would you like to do?");
+            for (int i = 0; i < books.length; i++) {
+            System.out.println((i+1) + ". " + books[i] + " ($" + prices[i] + ")");
